@@ -375,7 +375,7 @@
     padding:20px;
   }
   /* resize the documentfor mobile devices */
-  @media(max-width:576px){
+@media(max-width:768px){
    .nav-bar{
      display:none;
     }
@@ -389,12 +389,19 @@
       display:grid;
       place-items:center;
       text-align:center;
+      
+
     }
    .header-content p{
-     width:100%
+     width:80%;
+    } 
+   .header-content h1{
+     font-size: medium;
     } 
     .min{
-      display:block;
+      display:inline;
+      margin: auto;
+      margin-left: 48px;
     }
    .max{
      display:none;
